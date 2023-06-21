@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "gill sans", arial, sans-serif;
+	box-sizing: border-box;
+}
+
+
+.container{
+	width: 100%;
+	height:100%;
+	background:#112d32;
+
+}
+.menu ul{
+	display: inline-flex;
+	margin:50px;
+}
+
+.menu ul li{
+	list-style: none;
+	margin:0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+}
+h1{
+	border: 5px ridge  #1f5164;
+  
+    padding: 3px;
+ 
+	
+    
+	background-color: #88bdbc;
+	clear: left;
+
+	color: #e5eaf5;
+	
+}
+
+h2{
+	border: 5px ridge  #d0bdf4;
+    
+    padding: 3px;
+
+    
+	background-color: #f5f7f6;
+	
+
+	color: #e5eaf5;
+}
+form{
+
+	margin-left: 20px;
+}
+
+
+
+a{
+	color:#468a9b;
+	font-weight:700;
+	text-decoration: none;
+}	
+#z{
+	font-size: 40px;
+	color:black;
+}
+#one{
+    font-family: 'Impact';
+    color: rgb(97, 81, 81);
+	margin-top: 85px;
+    font-size: 35px;
+    margin-left:20px;
+}
+#two{
+	
+    font-family: 'Impact';
+	padding:50px 187px;
+    font-size: 25px;
+	color:#25274d;
+	width:2100x;
+	
+}
+#info{
+	font-size: 20px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+	color: lightsteelblue;
+	margin-bottom: 10px;
+	padding:20px 80px;
+	text-align: center;
+}
+img{
+	float:left;
+	margin-right:10px; 
+	margin-left: 110px;
+	width: 250px ;
+
+}
+.background{
+	background-image:url("photos/contactus.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	background-position:bottom right;
+
+}
+.backgroundB{
+	background-image:url("photos/meb2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    height:400px;
+
+}
+.bottom{
+	width: 100%;
+	height: 500px;
+	background-color: #557A95;
+	border: 2px black solid;
+	padding:40px ;
+
+	
+}
+
+
+.bottom p {
+	padding-top: 30px !important;
+	margin: auto 30px;
+	color:#b1a296;
+
+} 
+
+
+
+
+/* RESPONSIVE classes for img */
+/* for margin tap follow by right follow bottom follow by left 
+<top right bottom left>*/ 
+.righty{
+    max-width:100%;
+    height: auto;
+	float:right;
+	margin: 0 0 30px 40px;
+	border:solid 5px #a0d2eb;
+}
+.lefty{
+    max-width:100%;
+    height:0 auto;
+	float:left;
+	margin: 0 40px 30px 0;
+	border:solid 5px #a0d2eb;
+	padding: 4px;
+}
+.nofloat
+{
+	display: block;
+	margin:0 auto;
+	max-width:100%;
+    height: auto;
+    
+	border:outset 3px #a0d2eb;
+	padding: 4px;
+}
+
+.con p{
+	color:#c06868;
+}
+
+/* Form */
+
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	
+}
+
+
+label{
+	color:rgb(255, 9, 62);
+	/* cursor: pointer; */
+	
+}
+
+
+/* about */
+.head1{
+	color:#020c22c0;
+	background-color: #cfebf0;
+	padding: 20px 80px;
+	
+	
+}
+.head1 h3{
+	color:blue;
+	padding: 10px 20px;
+	
+	
+	
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#three{
+	font-size: 30px;
+}
+#four{
+	font-size: 22px;
+}
+button{
+	cursor: pointer;
+}
+
+
+/* University */
+
+.container0{
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+}
+.container0 h1{
+	
+	font-family: arial, sans-serif;
+	border: none ;
+	background-color:white !important;
+	font-size: 80px;
+
+	position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 200px;
+  cursor: pointer
+  
+}
+.down{
+	margin-top: 300px;
+	font-size: 22px;
+	padding: 10px 80px;
+}
+.down img{
+	width: 500px;
+
+}
